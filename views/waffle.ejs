@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+<style>
+  .maindiv {
+    background-color: rgb(223, 196, 248);
+    padding: 5%;
+  }
+</style>
+
+<body>
+  <form action="/cart" method="post" class="maindiv">
+    <div>
+      <img src="img/Vegan-Waffles-Square-3.jpg" style="width: 20rem" />
+      <h1>Get Your Customized Waffle :</h1>
+    </div>
+
+    <div>
+      <label for="radio">What type of waffle do you prefer?</label><br /><br />
+      <input type="radio" value="50" name="radio1" />: Brussel <br />
+      <input type="radio" value="50" name="radio1" />: Belgium <br />
+      <input type="radio" value="60" name="radio1" />: American <br />
+      <!--<select name="type">
+        <option value="brussel">Brussel</option>
+        <option value="belgium">Belgium</option>
+        <option value="american">American</option>
+      </select>-->
+    </div>
+    <br />
+
+    <div>
+      <label for="radio">What type of base for the waffle do you need? </label><br /><br />
+      <input type="radio" value="1" name="radio2" />: Crispy <br />
+      <input type="radio" value="0" name="radio2" />: Soft <br />
+    </div>
+    <br />
+
+    <div>
+      <label for="radio">What is the main Base ingredient of waffles you need?</label><br /><br />
+      <input type="radio" value="40" name="radio3" />: Honey <br />
+      <input type="radio" value="45" name="radio3" />: Cream <br />
+      <input type="radio" value="10" name="radio3" />: Plain <br />
+    </div>
+    <br />
+
+    <div>
+      <label for="radio"> What flavour of the waffle do you prefer?</label><br /><br />
+      <input type="radio" value="50" name="radio4" />: Chocolate <br />
+      <input type="radio" value="30" name="radio4" />: Honey <br />
+      <input type="radio" value="40" name="radio4" />: Strawberry <br />
+      <input type="radio" value="30" name="radio4" />: Vanilla <br />
+    </div>
+    <br />
+
+    <div>
+      <label for="radio"> Topping along with waffles you need?</label><br /><br />
+
+      <input type="radio" value="100" name="radio5" />: ice -cream<br />
+      <input type="radio" value="80" name="radio5" />: Strawberries<br />
+      <input type="radio" value="100" name="radio5" />: Fruits <br />
+      <input type="radio" value="70" name="radio5" />: Nutties <br />
+      <input type="radio" value="0" name="radio5" />: No topping<br />
+    </div>
+    <br />
+
+    <input type="submit" value="Add to Cart" class="btn solid" />
+  </form>
+</body>
+
+</html>
